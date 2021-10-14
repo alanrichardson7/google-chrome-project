@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "We Hate HackReactor",
+    "version": "1.1.4",
+    "description": "the winningest of Chrome extensions, brought to you by Connor and Alan - CODESMITH NY29 HACKATHON!!!",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["./script.js"],
+          "run_at": "document_end"
+        }
+      ],
+    "web_accessible_resources" : [
+        "assets/will.jpeg"
+     ]
+}
